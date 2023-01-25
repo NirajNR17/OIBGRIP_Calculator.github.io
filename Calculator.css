@@ -1,0 +1,31 @@
+html{
+    text-align: center;
+    background-color: aqua;
+}
+.container{
+    margin-top: 10em;
+    display: inline-block;
+    background-color: cornflowerblue;
+    box-shadow: black 15px 20px 10px 0px;
+}
+input{
+    margin: 10px;
+    border-radius: 10px;
+    line-height: 20px;
+}
+button{
+    text-align: center;
+    border-radius: 15px;
+    border:none;
+    box-shadow: aqua 0px 0px 10px 0px;
+    width: 35px;
+    margin: 5px;
+}
+button:hover{
+    cursor: pointer;
+    box-shadow: none;
+    transform: scale(0.98);
+}
+button::after{
+    transform: scale(0.98);
+}
